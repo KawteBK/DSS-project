@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "ajv": "^8.18.0",
     "autoprefixer": "^10.4.27",
     "express": "^5.2.1",
     "lucide-vue-next": "^1.0.0",

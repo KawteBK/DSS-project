@@ -1,6 +1,10 @@
-const express = require("express");
-const fs = require("fs");
-const path = require("path");
+import express from "express";
+import fs from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 const router = express.Router();
 
 const USERS_PATH = path.join(__dirname, "../data/users.json");
@@ -25,4 +29,4 @@ router.post("/login", (req, res) => {
   res.json({ role: user.role, username: user.username });
 });
 
-module.exports = router;
+export default router;
