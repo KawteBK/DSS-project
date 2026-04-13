@@ -1,7 +1,11 @@
-const express = require("express");
-const fs = require("fs");
-const path = require("path");
-const Ajv = require("ajv");
+import express from "express";
+import fs from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
+import Ajv from "ajv";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 const router = express.Router();
 
 const FILMS_PATH = path.join(__dirname, "../data/films.json");
@@ -11,7 +15,7 @@ const ajv = new Ajv();
 const schema = JSON.parse(fs.readFileSync(SCHEMA_PATH));
 const validate = ajv.compile(schema);
 
-// Helpers 
+//Helpers 
 
 function readFilms() {
   return JSON.parse(fs.readFileSync(FILMS_PATH));
@@ -25,7 +29,7 @@ function nextId(films) {
   return films.length > 0 ? Math.max(...films.map((f) => f.id)) + 1 : 1;
 }
 
-//  Auth Middleware 
+// ─── Auth Middleware 
 
 function isAdmin(req, res, next) {
   if (req.headers.role !== "admin") {
@@ -34,7 +38,7 @@ function isAdmin(req, res, next) {
   next();
 }
 
-//  GET /films 
+// ─── GET /films 
 // Supports: ?genre=Action  ?actor=DiCaprio  ?status=upcoming
 //           ?year=asc|desc  ?rating=asc|desc  ?title=asc|desc
 
@@ -89,6 +93,7 @@ router.get("/", (req, res) => {
 });
 
 //  GET /films/:id 
+
 router.get("/:id", (req, res) => {
   const id = parseInt(req.params.id);
   const { films } = readFilms();
@@ -116,7 +121,7 @@ router.post("/", isAdmin, (req, res) => {
   res.status(201).json(newFilm);
 });
 
-// PUT /films/:id (admin) 
+//  PUT /films/:id (admin) 
 
 router.put("/:id", isAdmin, (req, res) => {
   const id = parseInt(req.params.id);
@@ -153,4 +158,4 @@ router.delete("/:id", isAdmin, (req, res) => {
   res.json({ message: "Film deleted.", film: deleted });
 });
 
-module.exports = router;
+export default router;

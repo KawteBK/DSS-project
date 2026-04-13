@@ -1,0 +1,14 @@
+# Node modules (VERY IMPORTANT)
+backend/node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables (if you add later)
+backend/.env
+
+# OS files
+.DS_Store
+Thumbs.db

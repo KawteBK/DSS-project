@@ -1,13 +1,16 @@
-const express = require("express");
-const path = require("path");
+import express from "express";
+import { fileURLToPath } from "url";
+import path from "path";
+import filmsRouter from "./routes/films.js";
+import authRouter from "./routes/auth.js";
 
-const filmsRouter = require("./routes/films");
-const authRouter = require("./routes/auth");
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// ─── Middleware ───────────────────────────────────────────────────────────────
+//  Middleware 
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -25,7 +28,7 @@ app.use((req, res, next) => {
   next();
 });
 
-// ─── Routes ───────────────────────────────────────────────────────────────────
+//  Routes 
 
 app.use("/films", filmsRouter);
 app.use("/auth", authRouter);
@@ -40,7 +43,7 @@ app.use((req, res) => {
   res.status(404).json({ message: `Route ${req.method} ${req.path} not found.` });
 });
 
-// ─── Start ────────────────────────────────────────────────────────────────────
+//  Start 
 
 app.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}`);

@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "autoprefixer": "^10.4.27",
+    "express": "^5.2.1",
     "lucide-vue-next": "^1.0.0",
     "pinia": "^3.0.4",
     "postcss": "^8.5.9",
