@@ -1,6 +1,9 @@
 <script setup>
 import AppHeader from './components/AppHeader.vue';
 import AppFooter from './components/AppFooter.vue';
+import { useMovieStore } from './stores/movie';
+const movieStore = useMovieStore();
+movieStore.fetchMovies(); 
 </script>
 
 <template>
