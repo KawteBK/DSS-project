@@ -1,0 +1,273 @@
+[
+  {
+    "id": 1,
+    "title": "Inception",
+    "year": 2010,
+    "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+    "genres": ["Sci-Fi", "Action"],
+    "rating": 8.8,
+    "poster": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 2,
+    "title": "The Dark Knight",
+    "year": 2008,
+    "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+    "genres": ["Action", "Crime"],
+    "rating": 9.0,
+    "poster": "https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 3,
+    "title": "Superbad",
+    "year": 2007,
+    "description": "Two co-dependent high school seniors are forced to deal with separation anxiety after their plan to stage a booze-fueled party goes awry.",
+    "genres": ["Comedy"],
+    "rating": 7.6,
+    "poster": "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 4,
+    "title": "The Hangover",
+    "year": 2009,
+    "description": "Three buddies wake up from a bachelor party in Las Vegas, with no memory of the previous night and the bachelor missing.",
+    "genres": ["Comedy"],
+    "rating": 7.7,
+    "poster": "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 5,
+    "title": "Gladiator",
+    "year": 2000,
+    "description": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
+    "genres": ["Action", "Adventure"],
+    "rating": 8.5,
+    "poster": "https://images.unsplash.com/photo-1512149177596-f817c7ef1d4c?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 6,
+    "title": "Schindler's List",
+    "year": 1993,
+    "description": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
+    "genres": ["Biography", "Drama"],
+    "rating": 9.0,
+    "poster": "https://images.unsplash.com/photo-1505686994434-e3cc5abf1330?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 7,
+    "title": "Interstellar",
+    "year": 2014,
+    "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+    "genres": ["Sci-Fi", "Adventure"],
+    "rating": 8.7,
+    "poster": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 8,
+    "title": "Blade Runner 2049",
+    "year": 2017,
+    "description": "Young Blade Runner K's discovery of a long-buried secret leads him to track down former Blade Runner Rick Deckard, who's been missing for thirty years.",
+    "genres": ["Sci-Fi", "Action"],
+    "rating": 8.0,
+    "poster": "https://images.unsplash.com/photo-1614728263952-84ea206f99b6?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 9,
+    "title": "Mad Max: Fury Road",
+    "year": 2015,
+    "description": "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland with the help of a group of female prisoners, a psychotic worshiper, and a drifter named Max.",
+    "genres": ["Action", "Adventure"],
+    "rating": 8.1,
+    "poster": "https://images.unsplash.com/photo-1533928298208-27ff66555d8d?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 10,
+    "title": "The Martian",
+    "year": 2015,
+    "description": "An astronaut becomes stranded on Mars after his team assume him dead, and must rely on his ingenuity to find a way to signal to Earth that he is alive.",
+    "genres": ["Sci-Fi", "Adventure"],
+    "rating": 8.0,
+    "poster": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 11,
+    "title": "Arrival",
+    "year": 2016,
+    "description": "A linguist works with the military to communicate with alien lifeforms after twelve mysterious spacecraft appear around the world.",
+    "genres": ["Sci-Fi", "Drama"],
+    "rating": 7.9,
+    "poster": "https://images.unsplash.com/photo-1542204113-e93526289de2?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 12,
+    "title": "Dune",
+    "year": 2021,
+    "description": "Feature adaptation of Frank Herbert's science fiction novel, about the son of a noble family entrusted with the protection of the most valuable asset and most vital element in the galaxy.",
+    "genres": ["Sci-Fi", "Adventure"],
+    "rating": 8.0,
+    "poster": "https://images.unsplash.com/photo-1509347528160-9a9e33742cdb?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 13,
+    "title": "The Prestige",
+    "year": 2006,
+    "description": "After a tragic accident, two stage magicians in 1890s London engage in a battle to create the ultimate illusion while sacrificing everything they have to outwit each other.",
+    "genres": ["Drama", "Mystery"],
+    "rating": 8.5,
+    "poster": "https://images.unsplash.com/photo-1497124401559-3e75ec2ed774?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 14,
+    "title": "Memento",
+    "year": 2000,
+    "description": "A man with short-term memory loss attempts to track down his wife's murderer.",
+    "genres": ["Mystery", "Thriller"],
+    "rating": 8.4,
+    "poster": "https://images.unsplash.com/photo-1509248961158-e54f6934749c?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 15,
+    "title": "The Lion King",
+    "year": 1994,
+    "description": "Lion prince Simba and his father are targeted by his treacherous uncle, who wants to ascend the throne himself.",
+    "genres": ["Animation", "Adventure"],
+    "rating": 8.5,
+    "poster": "https://images.unsplash.com/photo-1546182990-dffeafbe841d?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 16,
+    "title": "Spirited Away",
+    "year": 2001,
+    "description": "During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches, and spirits, and where humans are changed into beasts.",
+    "genres": ["Animation", "Adventure"],
+    "rating": 8.6,
+    "poster": "https://images.unsplash.com/photo-1578632738908-4521c726eebf?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 17,
+    "title": "Pulp Fiction",
+    "year": 1994,
+    "description": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+    "genres": ["Crime", "Drama"],
+    "rating": 8.9,
+    "poster": "https://images.unsplash.com/photo-1594908176850-4293ca754595?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 18,
+    "title": "Fight Club",
+    "year": 1999,
+    "description": "An insomniac office worker and a devil-may-care shoemaker form an underground fight club that evolves into much more.",
+    "genres": ["Drama"],
+    "rating": 8.8,
+    "poster": "https://images.unsplash.com/photo-1585951237318-9ea5e175b891?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 19,
+    "title": "The Matrix",
+    "year": 1999,
+    "description": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
+    "genres": ["Action", "Sci-Fi"],
+    "rating": 8.7,
+    "poster": "https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 20,
+    "title": "Saving Private Ryan",
+    "year": 1998,
+    "description": "Following the Normandy Landings, a group of U.S. soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed in action.",
+    "genres": ["Drama", "War"],
+    "rating": 8.6,
+    "poster": "https://images.unsplash.com/photo-1533613220915-609f661a6fe1?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 21,
+    "title": "The Godfather",
+    "year": 1972,
+    "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+    "genres": ["Crime", "Drama"],
+    "rating": 9.2,
+    "poster": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 22,
+    "title": "The Shawshank Redemption",
+    "year": 1994,
+    "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+    "genres": ["Drama"],
+    "rating": 9.3,
+    "poster": "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 23,
+    "title": "Jurassic Park",
+    "year": 1993,
+    "description": "A pragmatic paleontologist visiting an almost complete theme park is tasked with protecting a couple of kids after a power failure causes the park's cloned dinosaurs to run loose.",
+    "genres": ["Adventure", "Sci-Fi"],
+    "rating": 8.2,
+    "poster": "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 24,
+    "title": "The Truman Show",
+    "year": 1998,
+    "description": "An insurance salesman discovers his whole life is actually a reality TV show.",
+    "genres": ["Comedy", "Drama"],
+    "rating": 8.2,
+    "poster": "https://images.unsplash.com/photo-1512149177596-f817c7ef1d4c?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 25,
+    "title": "WALL-E",
+    "year": 2008,
+    "description": "In the distant future, a small waste-collecting robot embark on a space journey that will ultimately decide the fate of mankind.",
+    "genres": ["Animation", "Sci-Fi"],
+    "rating": 8.4,
+    "poster": "https://images.unsplash.com/photo-1546776310-eef45dd6d63c?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 26,
+    "title": "Ratatouille",
+    "year": 2007,
+    "description": "A rat who can cook makes an unusual alliance with a young kitchen worker at a famous restaurant.",
+    "genres": ["Animation", "Comedy"],
+    "rating": 8.1,
+    "poster": "https://images.unsplash.com/photo-1505686994434-e3cc5abf1330?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 27,
+    "title": "Coco",
+    "year": 2017,
+    "description": "Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer.",
+    "genres": ["Animation", "Adventure"],
+    "rating": 8.4,
+    "poster": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 28,
+    "title": "Spider-Man: Into the Spider-Verse",
+    "year": 2018,
+    "description": "Teen Miles Morales becomes the Spider-Man of his universe, and must join with five spider-powered individuals from other dimensions to stop a threat for all realities.",
+    "genres": ["Animation", "Action"],
+    "rating": 8.4,
+    "poster": "https://images.unsplash.com/photo-1614728263952-84ea206f99b6?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 29,
+    "title": "Top Gun: Maverick",
+    "year": 2022,
+    "description": "After thirty years, Maverick is still pushing the envelope as a top naval aviator, but must confront ghosts of his past when he leads TOP GUN's elite graduates on a mission that demands the ultimate sacrifice from those chosen to fly it.",
+    "genres": ["Action", "Drama"],
+    "rating": 8.3,
+    "poster": "https://images.unsplash.com/photo-1533928298208-27ff66555d8d?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 30,
+    "title": "The Batman",
+    "year": 2022,
+    "description": "When a sadistic serial killer begins murdering key political figures in Gotham, Batman is forced to investigate the city's hidden corruption and question his family's involvement.",
+    "genres": ["Action", "Crime"],
+    "rating": 7.8,
+    "poster": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=500&auto=format&fit=crop&q=60"
+  }
+]
+
