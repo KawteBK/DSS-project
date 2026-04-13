@@ -1,0 +1,26 @@
+{
+  "type": "object",
+  "required": ["title", "year", "director", "genres", "rating"],
+  "properties": {
+    "title": { "type": "string", "minLength": 1 },
+    "year": { "type": "integer", "minimum": 1900, "maximum": 2026 },
+    "director": { "type": "string", "minLength": 1 },
+    "genres": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "rating": { "type": "number", "minimum": 0, "maximum": 10 },
+    "duration": { "type": "integer", "minimum": 0 },
+    "actors": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "status": {
+      "type": "string",
+      "enum": ["released", "upcoming"]
+    },
+    "poster": { "type": "string" }
+  },
+  "additionalProperties": false
+}
